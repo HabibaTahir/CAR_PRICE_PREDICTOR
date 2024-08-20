@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
 # Load the trained model
-model = joblib.load("D:/ai and data science course/MACHINE LEARNING MIAN PROJECT/Car predictor/car_prediction_model.joblib")
+model = joblib.load("car_prediction_model.joblib")
 
 # Title
 st.title("Vehicle Price Prediction (Cars and Bikes)")
